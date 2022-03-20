@@ -61,6 +61,7 @@ public class ListMovieRecyclerViewAdapter extends RecyclerView.Adapter<ListMovie
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                /*
                 ApiCall apiCall = retrofit.create(ApiCall.class);
                 Call<getFavModel> call = apiCall.getDetails(arrayList.get(i).getId(), API_KEY);
 
@@ -82,6 +83,8 @@ public class ListMovieRecyclerViewAdapter extends RecyclerView.Adapter<ListMovie
 
                     }
                 });
+
+                 */
             }
         });
     }
